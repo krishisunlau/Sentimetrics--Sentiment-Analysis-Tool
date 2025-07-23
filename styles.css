@@ -1,0 +1,103 @@
+
+body {
+    background-color: #0b2545; 
+    color: #f1dac4; 
+    font-family: Arial, sans-serif;
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+}
+
+.stApp {
+    background-color: #0b2545; 
+    padding: 2rem;
+    color: #f1dac4; 
+}
+
+h1 {
+    color: #4D4A56; 
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+h2, h3, h4 {
+    color: #4D4A56;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+input[type="file"],
+textarea,
+select {
+    width: 80%;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border: 1px solid #8da9c4;
+    background-color: #fff;
+    color: #4D4A56; 
+}
+
+.stButton button {
+    background-color: #8da9c4; 
+    color: #FFFFFF;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.stButton button:hover {
+    background-color: #630B16;
+    color: #FFFFFF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 2rem auto;
+    color: #4D4A56;
+}
+
+.stSidebar .stFileUploader {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: #4D4A56; 
+}
+
+.stSidebar .stFileUploader input {
+    width: auto;
+    border: 1px solid #9400D3;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: #4D4A56; 
+}
+
+.stDownloadButton button,
+.stSelectbox select {
+    margin-top: 1rem;
+    color: #4D4A56; 
+}
+
+.stSelectbox,
+.stTextArea,
+.stSidebar .stFileUploader,
+form {
+    text-align: center;
+    color: #4D4A56; 
+}
